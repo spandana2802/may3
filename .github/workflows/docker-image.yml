@@ -37,6 +37,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./dockerfile
+          file: ./dockerfile.txt
           push: true
           tags: may3
