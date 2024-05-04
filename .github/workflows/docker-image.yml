@@ -30,7 +30,7 @@ jobs:
            echo "DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}"
 
 
-      - name: Build the Docker image
+      - name: Build the Docker imagee
         uses: docker/setup-buildx-action@v1
 
       - name: Push Docker image
